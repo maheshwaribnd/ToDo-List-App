@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgb(87, 138, 140);
+}
+
+.container{
+    border: .5px solid rgb(216, 214, 214);
+    border-radius: 25px;
+    background-color: rgb(232, 239, 240);
+    box-shadow: 4px 4px 18px;
+    height: 550px;
+    width: 420px;
+    margin: auto;
+    margin-top: 6%;
+
+}
+.head{
+    background-color: rgb(115, 167, 169);
+    margin: 7px 0;
+    color: white;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item input{
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(115, 167, 169);
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+}
+.item button{
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    border: .2px solid white;
+    background-color: rgb(115, 167, 169);
+}
+.item button:hover{
+    background-color: rgb(39, 169, 89);
+    font-size: 30px;
+}
+.itemlist{
+    width: 265px;
+    max-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px solid grey; 
+    padding-top: 15px;
+    margin-right: 115px;
+}
+
+ol li{
+    color: rgb(64, 77, 77);
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 15px;
+}
+.btn-style{
+    margin: 4px;
+    font-size: 1.2rem;
+    color:  rgb(64, 77, 77);
+}
+.btn-style:hover{
+    font-size: 1.3rem;
+    text-shadow: .5px .5px .6px rgb(153, 145, 145);
+    color: rgb(187, 52, 52);
+}
